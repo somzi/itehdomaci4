@@ -14,7 +14,7 @@ const routes = [{
 
 // Instancira se VueRouter, standardan nacin za uvezivanje routera.
 // Cli sam odradi ovo za nas
-const router = new Vu eRouter({
+const router = new VueRouter({
   mode: "history",
   base: process.env.BASE_URL,
   routes
